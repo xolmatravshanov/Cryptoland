@@ -277,7 +277,6 @@ section{
     font-size: 1.5rem;
 }
 
-
 .about_us__text__title{
     color: #313B77;
     font-size: 1.9rem;
@@ -286,3 +285,37 @@ section{
     display: block;
     width: 100%;
 }
+
+.video-block{
+    width: 800px;
+    height: 380px;
+    background-image: url('../img/video-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    left: 10%;
+    border-radius: 15px;
+}
+.video-block__button{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 40px;
+    background-color: #00C3E2;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+    border:none;
+    box-shadow: 2px 2px 4px #00C3E2;
+    color: #fff;
+}
+.video-block__section{
+    position: relative;
+    margin-top: 150px;
+}
+
+
